@@ -1,0 +1,64 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos de distribuição / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de log
+*.log
+
+# Arquivos de modelo YOLO
+models/*.pt
+
+# Arquivos específicos do Streamlit
+.streamlit/secrets.toml
+
+# Arquivos de IDE / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de dados ou resultados que não devem ser versionados
+*.csv
+*.json
+*.pkl
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de cache
+.cache/
+

@@ -1,0 +1,10 @@
+[server]
+# Max size, in megabytes, for files uploaded with the file_uploader.
+# Default: 200
+maxUploadSize = 1000
+
+[theme]
+base="dark"
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,30 @@
+
+[[pages]]
+name = "Início"
+path = "Home.py"
+icon = "🏠"
+
+
+[[pages]]
+name = "Detecção de Imagens"
+path = "sections/1_Image_Detection.py"
+icon = "🖼️"
+
+
+[[pages]]
+name = "Detecção em Tempo Real"
+path = "sections/2_Realtime_Detection.py"
+icon = "📷"
+
+
+[[pages]]
+name = "Detecção de Vídeo"
+path = "sections/3_Video_Detection.py"
+icon = "🎥"
+
+
+[[pages]]
+name = "Captura de Tela em Tempo Real"
+path = "sections/4_Realtime_Screen_Capture.py"
+icon = "🖥️"
+
