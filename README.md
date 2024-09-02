@@ -38,14 +38,22 @@ Este aplicativo utiliza modelos de deep learning YOLOv8x e YOLOv9e para detectar
    pip install -r requirements.txt
    ```
 
+4. Baixe os Modelos
+
+Os modelos YOLOv8x e YOLOv9e não estão incluídos diretamente no repositório devido ao seu tamanho. Você pode baixá-los da seção de Releases:
+
+1. Vá para a [página de Releases](https://github.com/felipeverones/yololit-RDD/releases).
+2. Baixe os arquivo `models.zip`.
+3. Extraia-o na raiz do projeto (pasta `yololit-RDD`).
+
 ## Configuração
 
 1. Certifique-se de que os modelos YOLOv8x e YOLOv9e estão na pasta `models` com a seguinte estrutura:
    ```
    models/
-   ├── yolov8x/
+   ├── YOLOv8x/
    │   └── best.pt
-   └── yolov9e/
+   └── YOLOv9e/
        └── best.pt
    ```
 
